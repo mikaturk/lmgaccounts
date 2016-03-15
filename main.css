@@ -25,14 +25,20 @@ a, a:hover {
   float: left;
 }
 
-.socialname {
+.twitch.socialimg {
   margin-top: 4px;
-  margin-left: 3px;
+  margin-left: 6px;
+  width: 28px;
+  height: 28px;
+}
+.socialname {
+  margin: 4px 6px 4px 3px;
   float: left;
 }
 
 .name {
-  margin: 4px 4px 10px 4px;
+  margin: 4px 6px 4px 6px;
+  float: left;
 }
 
 .namecard {
