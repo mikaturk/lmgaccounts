@@ -4,11 +4,25 @@ body {
   font-size: 21px !important;
 }
 
-a, a:hover {
-  color: #fff;
+/*desccard classes*/
+p.desc.card, p.desc.card:hover {
+  color: #000;
   text-decoration: none;
 }
-/* main class*/
+
+.desc.card {
+  border: 1px solid #ccc;
+  width: 200px;
+  margin: 0 auto;
+}
+
+p.desc.name {
+  width: calc(100% - 12px);
+  color: #333;
+  text-align: center;
+}
+
+/*card classes*/
 .card, .card:hover {
 	height: 40px;
 	display: inline-block;
@@ -17,42 +31,6 @@ a, a:hover {
   text-decoration: none;
 }
 
-.socialimg {
-  margin-top: 4px;
-  margin-left: 4px;
-  width: 32px;
-  height: 32px;
-  float: left;
-}
-
-.twitch.socialimg {
-  margin-top: 4px;
-  margin-left: 6px;
-  width: 28px;
-  height: 28px;
-}
-.socialname {
-  margin: 4px 6px 4px 3px;
-  float: left;
-}
-
-.name {
-  margin: 4px 6px 4px 6px;
-  float: left;
-}
-
-.namecard {
-  text-align: center;
-}
-
-.linus.namecard {
-  background-color: rgb(219,65,5);
-}
-
-.luke.namecard {
-  background-color: rgb(219,65,5);
-}
-/*Youtube classes*/
 .card.youtube {
   background-color: rgb(229,45,39);
   min-width: 200px !important;
@@ -71,5 +49,48 @@ a, a:hover {
 }
 
 .card.forum {
+  background-color: rgb(219,65,5);
+}
+
+/*img classes*/
+.socialimg {
+  margin-top: 4px;
+  margin-left: 4px;
+  width: 32px;
+  height: 32px;
+  float: left;
+}
+
+.youtube.socialimg {
+  margin
+}
+
+.twitch.socialimg {
+  margin-left: 6px;
+  width: 28px;
+  height: 28px;
+}
+
+/*name classes*/
+.socialname {
+  margin: 4px 6px 4px 3px;
+  float: left;
+}
+
+.employee.name, p.desc.name {
+  margin: 4px 6px 4px 6px;
+  float: left;
+}
+
+/*namecard classes*/
+.namecard {
+  text-align: center;
+}
+
+.linus.namecard {
+  background-color: rgb(219,65,5);
+}
+
+.luke.namecard {
   background-color: rgb(219,65,5);
 }
