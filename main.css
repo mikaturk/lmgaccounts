@@ -1,0 +1,80 @@
+  /*main.css*/
+
+/*fix for the display: inline-block; property screwing things up*/
+.spacer {
+  padding: 1px !important;
+}
+
+/*p {
+  display: inline;
+  margin: 0 0 4px;
+  test
+}*/
+
+body {
+  font-size: 21px !important;
+}
+
+a, a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+/* main class*/
+.card, .card:hover {
+	height: 40px;
+	display: inline-block;
+	border-radius: 5px;
+	color: #fff;
+  text-decoration: none;
+}
+
+.socialimg {
+  margin-top: 4px;
+  margin-left: 4px;
+  width: 32px;
+  height: 32px;
+  float: left;
+}
+
+.socialname {
+  margin-top: 4px;
+  margin-left: 3px;
+  float: left;
+}
+
+.name {
+  margin: 4px 4px 10px 4px;
+}
+
+.namecard {
+  text-align: center;
+}
+
+.linus.namecard {
+  background-color: rgb(219,65,5);
+}
+
+.luke.namecard {
+  background-color: rgb(219,65,5);
+}
+/*Youtube classes*/
+.card.youtube {
+  background-color: rgb(229,45,39);
+  min-width: 200px !important;
+}
+
+.card.twitter {
+  background-color: #55acee;
+}
+
+.card.twitch {
+  background-color: rgb(83,59,121);
+}
+
+.card.instagram {
+  background-color: #3f729b;
+}
+
+.card.forum {
+  background-color: rgb(219,65,5);
+}
