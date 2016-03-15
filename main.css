@@ -1,14 +1,8 @@
   /*main.css*/
 
-/*fix for the display: inline-block; property screwing things up*/
-.spacer {
-  padding: 1px !important;
-}
-
 /*p {
   display: inline;
   margin: 0 0 4px;
-  test
 }*/
 
 body {
