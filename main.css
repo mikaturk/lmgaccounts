@@ -113,16 +113,22 @@ a.forum {
   background-color: rgb(219,65,5);
 }
 
+@media (min-width: 1200px) {
+  .card {
+    width: 200px;
+  }
+}
+
 @media (max-width: 1199px) {
+  .socialname, .desc {
+    display: none;
+  }
   body {
     font-size: 42px !important;
   }
   .card, .card:hover {
     width: 80px;
     height: 80px;
-  }
-  .socialname, .desc {
-    display: none;
   }
   .employee.name {
     margin: 10px 6px 10px 6px;
@@ -139,14 +145,38 @@ a.forum {
     width: 56px;
     height: 56px;
   }
-
   .card.employee {
     width: 200px;
   }
 }
 
-@media (min-width: 1200px) {
-  .card {
-    width: 200px;
+@media (max-width: 600px) {
+  body {
+    font-size: 31.5px !important;
+  }
+  .card, .card:hover {
+    width: 60px;
+    height: 60px;
+  }
+  .employee.name {
+    margin: 7.5px 6px 7.5px 6px;
+  }
+  .socialimg {
+    margin-top: 6px;
+    margin-left: 6px;
+    width: 48px;
+    height: 48px;
+  }
+  .twitch.socialimg {
+    margin-top: 9px;
+    margin-left: 9px;
+    width: 42px;
+    height: 42px;
+  }
+}
+
+@media (max-width: 505px) {
+  .employee.namecard {
+    width: 100%;
   }
 }
