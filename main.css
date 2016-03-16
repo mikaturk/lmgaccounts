@@ -4,26 +4,45 @@ body {
   font-size: 21px !important;
 }
 
+div.container {
+  text-align: center;
+}
+
+div#names, div#linus {
+  margin: auto;
+}
+
 /*desccard classes*/
 p.desc.card, p.desc.card:hover {
   color: #000;
   text-decoration: none;
 }
 
-.desc.card {
-  border: 1px solid #ccc;
-  width: 200px;
+a.desc.card, a.none {
   margin: 0 auto;
 }
 
-p.desc.name {
+a.none.card {
+    border: 1px solid #ccc;
+}
+
+p.desc, p.none, .employee.name {
   width: calc(100% - 12px);
-  color: #333;
   text-align: center;
+}
+
+p.desc.name, p.none {
+  color: #333;
+}
+
+.desc.social {
+  color: #fff;
+
 }
 
 /*card classes*/
 .card, .card:hover {
+  width: 200px;
 	height: 40px;
 	display: inline-block;
 	border-radius: 5px;
@@ -31,24 +50,23 @@ p.desc.name {
   text-decoration: none;
 }
 
-.card.youtube {
+a.youtube {
   background-color: rgb(229,45,39);
-  min-width: 200px !important;
 }
 
-.card.twitter {
+a.twitter {
   background-color: #55acee;
 }
 
-.card.twitch {
+a.twitch {
   background-color: rgb(83,59,121);
 }
 
-.card.instagram {
+a.instagram {
   background-color: #3f729b;
 }
 
-.card.forum {
+a.forum {
   background-color: rgb(219,65,5);
 }
 
@@ -77,7 +95,7 @@ p.desc.name {
   float: left;
 }
 
-.employee.name, p.desc.name {
+.employee.name, p.desc, p.none {
   margin: 4px 6px 4px 6px;
   float: left;
 }
