@@ -112,10 +112,14 @@ a.forum {
 .luke.namecard {
   background-color: rgb(219,65,5);
 }
+/*temporarly setting all the colors to orange for the names because i have not assigned everyone a color :)*/
+.namecard {
+  background-color: rgb(219,65,5);
+}
 
 @media (min-width: 1200px) {
   .card {
-    width: 200px;
+    width: 220px;
   }
 }
 
