@@ -1,8 +1,9 @@
 Platforms:
-youtube
 twitter
+youtube
 twitch
 instagram
+forum
 
 Employees:
 Linus
