@@ -116,7 +116,7 @@ a.forum {
 .namecard {
   text-align: center;
 }
-
+/*
 .linus.namecard {
   background-color: rgb(219,65,5);
 }
@@ -124,6 +124,7 @@ a.forum {
 .luke.namecard {
   background-color: rgb(219,65,5);
 }
+*/
 /*temporarly setting all the colors to orange for the names because i have not assigned everyone a color :)*/
 .namecard.employee {
   background-color: rgb(219,65,5);
